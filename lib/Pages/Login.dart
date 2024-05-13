@@ -30,7 +30,7 @@ class _LoginState extends State<Login> {
 
     // Perform database query to check username and password
     var result = await db.connection.query(
-      'SELECT * FROM enseignant WHERE Prenom = ? AND mot_de_passe = ?',
+      'SELECT * FROM enseignant WHERE email = ? AND mot_de_passe = ?',
       [username, password],
     );
 
@@ -51,13 +51,9 @@ class _LoginState extends State<Login> {
         MaterialPageRoute(builder: (context) => Home(Id: id)),
       );
 
-      Fluttertoast.showToast(
-        msg: "Connected",
-        backgroundColor: Colors.green,
-      );
     } else {
       Fluttertoast.showToast(
-        msg: "Not Connected",
+        msg: "Invalid email or password",
         backgroundColor: Colors.red,
       );
     }

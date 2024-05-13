@@ -18,7 +18,7 @@ class StudentCard extends StatelessWidget {
       padding: EdgeInsets.symmetric(vertical: screenHeight*0.02, horizontal: screenWidth*0.05),
       height: screenHeight*0.2,
       decoration: BoxDecoration(borderRadius: BorderRadius.circular(20),
-        border: Border.all(color: Colors.grey, width: screenWidth*0.003),
+        border: Border.all(color: Colors.black, width: screenWidth*0.003),
         color: Colors.white,
       ),
       child: Column(
@@ -33,7 +33,7 @@ class StudentCard extends StatelessWidget {
                 height: screenHeight*0.1,
                 width: screenHeight*0.1,
                 decoration: BoxDecoration(
-                  color: Colors.black45,
+                  color: Colors.black,
                   borderRadius: BorderRadius.circular(20),
                 ),
                 child: Image.asset("lib/icons/students.png"),

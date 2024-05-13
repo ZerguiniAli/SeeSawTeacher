@@ -16,7 +16,7 @@ class ClassCard extends StatelessWidget {
       alignment: Alignment.center,
       padding: EdgeInsets.symmetric(horizontal: screenWidth*0.04, vertical: screenHeight*0.03),
       decoration: BoxDecoration(borderRadius: BorderRadius.circular(20),
-        border: Border.all(color: Colors.grey, width: screenWidth*0.003),
+        border: Border.all(color: Colors.black, width: screenWidth*0.003),
         color: Colors.white,
       ),
       child: Row(
@@ -26,11 +26,12 @@ class ClassCard extends StatelessWidget {
             padding: EdgeInsets.all(screenHeight*0.02),
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(10),
-              color: Colors.grey[350],
+              color: Colors.black,
             ),
             child: Text(annee, style: TextStyle(
               fontWeight: FontWeight.bold,
-              fontSize: screenHeight*0.02
+              fontSize: screenHeight*0.02,
+              color: Colors.white
             ),),
           ),
           Container(

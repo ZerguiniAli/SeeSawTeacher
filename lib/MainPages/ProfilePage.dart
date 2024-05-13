@@ -32,7 +32,7 @@ class ProfilePage extends StatelessWidget {
               height: screenHeight*0.1,
               width: screenHeight*0.1,
               decoration: BoxDecoration(
-                color: Colors.black45,
+                color: Colors.black,
                 borderRadius: BorderRadius.circular(20),
               ),
               child: Image.asset("lib/icons/man.png"),
@@ -41,7 +41,7 @@ class ProfilePage extends StatelessWidget {
               width: double.infinity,
               padding: EdgeInsets.symmetric(vertical: screenHeight*0.022, horizontal: screenWidth*0.04),
               decoration: BoxDecoration(
-                border: Border.all(color: Colors.grey, width: screenWidth*0.003),
+                border: Border.all(color: Colors.black, width: screenWidth*0.003),
                 borderRadius: BorderRadius.circular(15),
                 color: Colors.white,
                 boxShadow: [
@@ -70,7 +70,7 @@ class ProfilePage extends StatelessWidget {
               width: double.infinity,
               padding: EdgeInsets.symmetric(vertical: screenHeight*0.022, horizontal: screenWidth*0.04),
               decoration: BoxDecoration(
-                border: Border.all(color: Colors.grey, width: screenWidth*0.003),
+                border: Border.all(color: Colors.black, width: screenWidth*0.003),
                 borderRadius: BorderRadius.circular(15),
                 color: Colors.white,
                 boxShadow: [
@@ -99,7 +99,7 @@ class ProfilePage extends StatelessWidget {
               width: double.infinity,
               padding: EdgeInsets.symmetric(vertical: screenHeight*0.022, horizontal: screenWidth*0.04),
               decoration: BoxDecoration(
-                border: Border.all(color: Colors.grey, width: screenWidth*0.003),
+                border: Border.all(color: Colors.black, width: screenWidth*0.003),
                 borderRadius: BorderRadius.circular(15),
                 color: Colors.white,
                 boxShadow: [
@@ -128,7 +128,7 @@ class ProfilePage extends StatelessWidget {
               width: double.infinity,
               padding: EdgeInsets.symmetric(vertical: screenHeight*0.022, horizontal: screenWidth*0.04),
               decoration: BoxDecoration(
-                border: Border.all(color: Colors.grey, width: screenWidth*0.003),
+                border: Border.all(color: Colors.black, width: screenWidth*0.003),
                 borderRadius: BorderRadius.circular(15),
                 color: Colors.white,
                 boxShadow: [
@@ -157,7 +157,7 @@ class ProfilePage extends StatelessWidget {
               width: double.infinity,
               padding: EdgeInsets.symmetric(vertical: screenHeight*0.022, horizontal: screenWidth*0.04),
               decoration: BoxDecoration(
-                border: Border.all(color: Colors.grey, width: screenWidth*0.003),
+                border: Border.all(color: Colors.black, width: screenWidth*0.003),
                 borderRadius: BorderRadius.circular(15),
                 color: Colors.white,
                 boxShadow: [
@@ -186,7 +186,7 @@ class ProfilePage extends StatelessWidget {
               width: double.infinity,
               padding: EdgeInsets.symmetric(vertical: screenHeight*0.022, horizontal: screenWidth*0.04),
               decoration: BoxDecoration(
-                border: Border.all(color: Colors.grey, width: screenWidth*0.003),
+                border: Border.all(color: Colors.black, width: screenWidth*0.003),
                 borderRadius: BorderRadius.circular(15),
                 color: Colors.white,
                 boxShadow: [
@@ -215,7 +215,7 @@ class ProfilePage extends StatelessWidget {
               width: double.infinity,
               padding: EdgeInsets.symmetric(vertical: screenHeight*0.022, horizontal: screenWidth*0.04),
               decoration: BoxDecoration(
-                border: Border.all(color: Colors.grey, width: screenWidth*0.003),
+                border: Border.all(color: Colors.black, width: screenWidth*0.003),
                 borderRadius: BorderRadius.circular(15),
                 color: Colors.white,
                 boxShadow: [
@@ -245,7 +245,7 @@ class ProfilePage extends StatelessWidget {
               width: double.infinity,
               padding: EdgeInsets.symmetric(vertical: screenHeight*0.022, horizontal: screenWidth*0.04),
               decoration: BoxDecoration(
-                border: Border.all(color: Colors.grey, width: screenWidth*0.003),
+                border: Border.all(color: Colors.black, width: screenWidth*0.003),
                 borderRadius: BorderRadius.circular(15),
                 color: Colors.white,
                 boxShadow: [

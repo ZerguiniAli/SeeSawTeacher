@@ -64,7 +64,7 @@ class _HomePageState extends State<HomePage> {
               padding: EdgeInsets.symmetric(vertical: screenHeight*0.02, horizontal: screenWidth*0.05),
               height: screenHeight*0.2,
               decoration: BoxDecoration(borderRadius: BorderRadius.circular(20),
-                border: Border.all(color: Colors.grey, width: screenWidth*0.003),
+                border: Border.all(color: Colors.black, width: screenWidth*0.003),
                 color: Colors.white,
                 boxShadow: [
                   BoxShadow(
@@ -86,7 +86,7 @@ class _HomePageState extends State<HomePage> {
                         height: screenHeight*0.1,
                         width: screenHeight*0.1,
                         decoration: BoxDecoration(
-                          color: Colors.black45,
+                          color: Colors.black,
                           borderRadius: BorderRadius.circular(20),
                         ),
                         child: Image.asset("lib/icons/man.png"),
@@ -135,7 +135,7 @@ class _HomePageState extends State<HomePage> {
                       Container(
                         padding: EdgeInsets.symmetric(vertical: screenHeight*0.022, horizontal: screenWidth*0.04),
                         decoration: BoxDecoration(
-                          border: Border.all(color: Colors.grey, width: screenWidth*0.003),
+                          border: Border.all(color: Colors.black, width: screenWidth*0.003),
                           borderRadius: BorderRadius.circular(25),
                           color: Colors.white,
                           boxShadow: [
@@ -154,12 +154,12 @@ class _HomePageState extends State<HomePage> {
                               width: screenHeight*0.08,
                               decoration: BoxDecoration(
                                   borderRadius: BorderRadius.circular(15),
-                                  color: Colors.grey[400]
+                                  color: Colors.black
                               ),
                               alignment: Alignment.center,
                               child: Container(
                                 padding: EdgeInsets.all(screenHeight*0.015),
-                                child: Image.asset("lib/icons/class.png", color: Colors.black,),
+                                child: Image.asset("lib/icons/class.png", color: Colors.white,),
                               ),
                             ),
                             Column(
@@ -190,7 +190,7 @@ class _HomePageState extends State<HomePage> {
                       Container(
                         padding: EdgeInsets.symmetric(vertical: screenHeight*0.022, horizontal: screenWidth*0.04),
                         decoration: BoxDecoration(
-                          border: Border.all(color: Colors.grey, width: screenWidth*0.003),
+                          border: Border.all(color: Colors.black, width: screenWidth*0.003),
                           borderRadius: BorderRadius.circular(25),
                           color: Colors.white,
                           boxShadow: [
@@ -209,12 +209,12 @@ class _HomePageState extends State<HomePage> {
                               width: screenHeight*0.08,
                               decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(15),
-                                  color: Colors.grey[400]
+                                  color: Colors.black
                               ),
                               alignment: Alignment.center,
                               child: Container(
                                 padding: EdgeInsets.all(screenHeight*0.015),
-                                child: Image.asset("lib/icons/education.png", color: Colors.black,),
+                                child: Image.asset("lib/icons/education.png", color: Colors.white,),
                               ),
                             ),
                             Column(
@@ -245,7 +245,7 @@ class _HomePageState extends State<HomePage> {
                       Container(
                         padding: EdgeInsets.symmetric(vertical: screenHeight*0.022, horizontal: screenWidth*0.04),
                         decoration: BoxDecoration(
-                          border: Border.all(color: Colors.grey, width: screenWidth*0.003),
+                          border: Border.all(color: Colors.black, width: screenWidth*0.003),
                           borderRadius: BorderRadius.circular(25),
                           color: Colors.white,
                           boxShadow: [
@@ -264,12 +264,12 @@ class _HomePageState extends State<HomePage> {
                               width: screenHeight*0.08,
                               decoration: BoxDecoration(
                                   borderRadius: BorderRadius.circular(15),
-                                  color: Colors.grey[400]
+                                  color: Colors.black
                               ),
                               alignment: Alignment.center,
                               child: Container(
                                 padding: EdgeInsets.all(screenHeight*0.015),
-                                child: Image.asset("lib/icons/absentism.png", color: Colors.black,),
+                                child: Image.asset("lib/icons/absentism.png", color: Colors.white,),
                               ),
                             ),
                             Column(
@@ -310,7 +310,7 @@ class _HomePageState extends State<HomePage> {
                       Container(
                         padding: EdgeInsets.symmetric(vertical: screenHeight*0.022, horizontal: screenWidth*0.04),
                         decoration: BoxDecoration(
-                          border: Border.all(color: Colors.grey, width: screenWidth*0.003),
+                          border: Border.all(color: Colors.black, width: screenWidth*0.003),
                           borderRadius: BorderRadius.circular(25),
                           color: Colors.white,
                           boxShadow: [
@@ -329,12 +329,12 @@ class _HomePageState extends State<HomePage> {
                               width: screenHeight*0.08,
                               decoration: BoxDecoration(
                                   borderRadius: BorderRadius.circular(15),
-                                  color: Colors.grey[400]
+                                  color: Colors.black
                               ),
                               alignment: Alignment.center,
                               child: Container(
                                 padding: EdgeInsets.all(screenHeight*0.015),
-                                child: Image.asset("lib/icons/absence1.png", color: Colors.black,),
+                                child: Image.asset("lib/icons/absence1.png", color: Colors.white,),
                               ),
                             ),
                             Column(

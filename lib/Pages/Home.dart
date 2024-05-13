@@ -138,7 +138,7 @@ class _HomeState extends State<Home> {
             left: screenWidth * 0.04,
             right: screenWidth * 0.04),
         decoration: BoxDecoration(
-          color: Colors.grey[700],
+          color: Colors.black,
           borderRadius: BorderRadius.circular(100),
           boxShadow: [
             BoxShadow(
